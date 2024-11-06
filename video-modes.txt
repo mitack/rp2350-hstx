@@ -1,5 +1,5 @@
 Mode#	Card Type	Graphics	Text Res	Char Size	Pixel Bits	Type
-$0	VGA	  320X200	40X25	8x8	4	Text
+$0	VGA	    320X200	40X25	8x8	4	Text
 $1 	VGA	320X200	40X25	8x8	4	Text
 $2 	VGA	640X400	80X25	8x16	4	Text
 $3 	VGA	640X400	80X25	8x16	4	Text
