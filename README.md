@@ -7,10 +7,10 @@ Hardware graphics mode: 800x600, split into:
 Text format is 2 bytes per character- see https://en.wikipedia.org/wiki/VGA_text_mode#Text_buffer
 
 Memory usage:
-* graphics mode: 800*600 = 480,000
-* text mode: 100*75*2    =  15,000
-Total buffers:             495,000
-Memory left on the device:  25,000
+* Graphics mode: 800*600 = 480,000
+* Text mode: 100*75*2    =  15,000
+* Total buffers:             495,000
+* Memory left on the device:  25,000
 
 
 ## Links, Pinouts and Schematics:
