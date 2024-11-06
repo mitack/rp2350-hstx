@@ -1,0 +1,2 @@
+Mode#	Card Type	Graphics	Text Res	Char Size	Pixel Bits	Type
+$0	 	VGA			320X200		40X25		8x8			4			Text
