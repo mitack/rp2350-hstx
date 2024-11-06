@@ -3,6 +3,7 @@
 Hardware graphics mode: 800x600, split into:
 * user text mode 68/0044h/100×60/8×8/800×480
 * lower 120 pixels = 15 lines reserved for system stats(cpu load etc), help etc.
+
 See: https://en.wikipedia.org/wiki/VGA_text_mode#PC_common_text_modes
 
 ## Links, Pinouts and Schematics:
