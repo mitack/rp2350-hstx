@@ -1,10 +1,17 @@
 # rp2350-hstx
 
 Hardware graphics mode: 800x600, split into:
-* user text mode 68/0044h/100×60/8×8/800×480
+* user text mode 68/0044h/100×60/8×8/800×480 - see https://en.wikipedia.org/wiki/VGA_text_mode#PC_common_text_modes
 * lower 120 pixels = 15 lines reserved for system stats(cpu load etc), help etc.
 
-See: https://en.wikipedia.org/wiki/VGA_text_mode#PC_common_text_modes
+Text format is 2 bytes per character- see https://en.wikipedia.org/wiki/VGA_text_mode#Text_buffer
+
+Memory usage:
+* graphics mode: 800*600 = 480,000
+* text mode: 100*75*2    =  15,000
+Total buffers:             495,000
+Memory left on the device:  25,000
+
 
 ## Links, Pinouts and Schematics:
 ​
