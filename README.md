@@ -1,8 +1,8 @@
 # rp2350-hstx
 
-Hardware graphics mode: 800x600, split into:
-* user text mode 68/0044h/100×60/8×8/800×480 - see https://en.wikipedia.org/wiki/VGA_text_mode#PC_common_text_modes
-* lower 120 pixels = 15 lines reserved for system stats(cpu load etc), help etc.
+Permanent hardware graphics mode: 800x600, split into:
+* User text mode- all modes up to 68/0044h/100×60/8×8/800×480 - see https://en.wikipedia.org/wiki/VGA_text_mode#PC_common_text_modes
+* Permanent lower 120 pixels = 15 lines reserved for system stats(cpu load etc), help/keys etc.
 
 Text format is 2 bytes per character- see https://en.wikipedia.org/wiki/VGA_text_mode#Text_buffer
 
